@@ -146,8 +146,6 @@ export async function appRoutes(app: FastifyInstance){
             FROM habit_week_days habit_week_days
             WHERE
               HWD.week_day = 
-
-
           ) as amount
         FROM days D
       `
